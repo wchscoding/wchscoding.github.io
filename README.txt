@@ -1,2 +1,2 @@
-official website of the WCHS Competitive Coding Club
+official website of the WCHS Competitive Coding Club (CCC)
 

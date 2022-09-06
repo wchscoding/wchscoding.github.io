@@ -1985,6 +1985,45 @@ input, select, textarea {
 			.button.primary.icon:before {
 				color: #ffffff !important;
 			}
+/* 
+
+hi why are you here
+
+
+*/
+			input[type="submit"].secondary,
+		input[type="reset"].secondary,
+		input[type="button"].secondary,
+		button.secondary,
+		.button.secondary {
+			background-color: #9e58d8;
+			color: #ffffff !important;
+			box-shadow: none;
+		}
+
+			input[type="submit"].secondary:hover,
+			input[type="reset"].secondary:hover,
+			input[type="button"].secondary:hover,
+			button.secondary:hover,
+			.button.secondary:hover {
+				background-color: #b465f4;
+			}
+
+			input[type="submit"].secondary:active,
+			input[type="reset"].secondary:active,
+			input[type="button"].secondary:active,
+			button.secondary:active,
+			.button.secondary:active {
+				background-color: #7ec3ee;
+			}
+
+			input[type="submit"].secondary.icon:before,
+			input[type="reset"].secondary.icon:before,
+			input[type="button"].secondary.icon:before,
+			button.secondary.icon:before,
+			.button.secondary.icon:before {
+				color: #ffffff !important;
+			}
 
 /* Form */
 
@@ -3411,7 +3450,7 @@ input, select, textarea {
 			#main input[type="button"].primary,
 			#main button.primary,
 			#main .button.primary {
-				background-color: #8cc9f0;
+				background-color: #d8f0ff;
 				color: #ffffff !important;
 				box-shadow: none;
 			}
@@ -3421,7 +3460,7 @@ input, select, textarea {
 				#main input[type="button"].primary:hover,
 				#main button.primary:hover,
 				#main .button.primary:hover {
-					background-color: #9acff2;
+					background-color: #b1e0ff;
 				}
 
 				#main input[type="submit"].primary:active,
@@ -3440,6 +3479,62 @@ input, select, textarea {
 					color: #ffffff !important;
 				}
 
+				/* 
+				
+				*/
+				#main input[type="submit"].secondary,
+			#main input[type="reset"].secondary,
+			#main input[type="button"].secondary,
+			#main button.secondary,
+			#main .button.secondary {
+				background-color: #fee9fe;
+				color: #ffffff !important;
+				box-shadow: none;
+			}
+
+				#main input[type="submit"].secondary:hover,
+				#main input[type="reset"].secondary:hover,
+				#main input[type="button"].secondary:hover,
+				#main button.secondary:hover,
+				#main .button.secondary:hover {
+					background-color: #f5cef7;
+				}
+
+				#main input[type="submit"].secondary:active,
+				#main input[type="reset"].secondary:active,
+				#main input[type="button"].secondary:active,
+				#main button.secondary:active,
+				#main .button.secondary:active {
+					background-color: #7ec3ee;
+				}
+
+				#main input[type="submit"].secondary.icon:before,
+				#main input[type="reset"].secondary.icon:before,
+				#main input[type="button"].secondary.icon:before,
+				#main button.secondary.icon:before,
+				#main .button.secondary.icon:before {
+					color: #ffffff !important;
+				}
+				/* 
+				
+				*/
+				#main input[type="submit"].coolary,
+			#main input[type="reset"].coolary,
+			#main input[type="button"].coolary,
+			#main button.coolary,
+			#main .button.coolary {
+				background-color: #f1dfff;
+				color: #ffffff !important;
+				box-shadow: none;
+			}
+
+				#main input[type="submit"].coolary:hover,
+				#main input[type="reset"].coolary:hover,
+				#main input[type="button"].coolary:hover,
+				#main button.coolary:hover,
+				#main .button.coolary:hover {
+					background-color: #e2c3fa;
+				}
 		#main label {
 			color: #636363;
 		}
